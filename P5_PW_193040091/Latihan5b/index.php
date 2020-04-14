@@ -2,6 +2,7 @@
 
    require 'php/functions.php';
    $elektronika = query("SELECT * FROM elektronika")
+   
 ?>
 
 
@@ -10,10 +11,11 @@
 <head>
     <meta charshet="UTF-8">
     <title>Elektronika</title>
+    
 </head>
 <body>
 <div class="container">
-<table cellpadding="10"; cellsapcing="0" border="1">
+<table>
 <tr >
     <th>No</th>
     <th>Nama</th>
@@ -24,7 +26,7 @@
 </tr>
 <?php $i =1 ?>
 <?php foreach ($elektronika as $rv) : ?>
-
+   
     <tr>
     <td><?= $rv["id"] ?></td>  
     <td><?= $rv["nama"] ?></td>

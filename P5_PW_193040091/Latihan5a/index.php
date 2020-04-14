@@ -3,7 +3,7 @@
     $conn = mysqli_connect("localhost", "root", "")or die("koneksi ke DB gagal");
 
 
-    mysqli_select_db($conn, "pw_193040091") or die ("Database salah!");
+    mysqli_select_db($conn, "tubes_193040091") or die ("Database salah!");
 
 
     $result = mysqli_query($conn,"SELECT * FROM elektronika");
@@ -15,6 +15,7 @@
 <html lang="en">
 <head>
     <meta charshet="UTF-8">
+    
     <title>Elektronika</title>
 </head>
 <body>
