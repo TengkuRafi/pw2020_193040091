@@ -15,7 +15,7 @@
 </head>
 <body>
 <div class="container">
-<table>
+<table border ="1" cellpadding="13" cellspacing="0">
 <tr >
     <th>No</th>
     <th>Nama</th>
