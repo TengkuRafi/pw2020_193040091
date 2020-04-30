@@ -10,6 +10,8 @@
         $conn = koneksi();
         $result = mysqli_query($conn , "$sql");
 
+        var_dump($result);
+
         $rows = [];
         while ($rv = mysqli_fetch_assoc($result)){
             $rows[] = $rv;
