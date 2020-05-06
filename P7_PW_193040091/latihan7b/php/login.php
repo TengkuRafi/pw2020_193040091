@@ -13,11 +13,11 @@ if(isset($_POST['submit'])){
 
     if(mysqli_num_rows($cek_user) > 0){
         $row = mysqli_fetch_assoc($cek_user);
-        if ($password == $row['password']){
+        if (password_verify($password, $row['password'])){
             $_SESSION['username'] = $_POST['username'];
-            $_SESSION['hash'] = $row['id'];
+            $_SESSION['hash'] = hash('sha256', $row['id'], false);
         }
-        if($row['id'] == $_SESSION['hash']){
+        if (hash('sha256', $row['id']) == $_SESSION['hash']){
             header("Location: admin.php");
             die;
         }
@@ -40,22 +40,23 @@ if(isset($_POST['submit'])){
     <p style="color:red; fontstyle:italic;">Username atau Password</p>
     <?php endif ?>
     <form action="" method="post">
-    <table>
-    <tr>
-        <td><label for="username">Username</label></td>
-        <td>:</td>
-        <td><input type="text" name="username"></td>
-        </tr>
-    <tr>
-        <td><label for="password">Password</label></td>
-        <td>:</td>
-        <td><input type="password" name="password"></td>
-    </tr>
-    </table>
-    <input type="checkbox" name="remember">
-    <label for="rember">Remember Me</label>
-    <br>
-    <button type="submit" name="submit">Login</button>
+                <table>
+                    <tr>
+                        <td><label for="username">Username</label></td>
+                        <td>:</td>
+                        <td><input type="text" name="username"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td>:</td>
+                        <td><input type="password" name="password"></td>
+                    </tr>
+                </table>
+        <input type="checkbox" name="remember">
+        <label for="rember">Remember Me</label>
+        <br>
+        <button type="submit" name="submit">Login</button>
     </form>
+    <p>Belum punya akun? Registrasi <a href="registrasi.php">Disini!</a></p>
 </body>
 </html>

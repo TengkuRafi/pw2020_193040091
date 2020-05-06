@@ -23,57 +23,56 @@ if(isset($_POST['ubah'])){
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Halaman Ubah data</title>
+    <link rel="stylesheet" href="../css/ubah.css">
 </head>
 <body>
+<section id="contact" class="contact mb-5">
+
+<div class="col text-center">
+        <h1>Mohon Perhatian !!!!!</h1>
+      </div>
+<div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="card text-white bg-dark mb-3 text-center">
+          <div class="card-body">
+            <h5 class="card-title">Perhatian !!!!</h5>
+            <p class="card-text">Jangan sampai ada kesalahan dalam mengubah data nanti susah lagi, nanti eror lagi.Tolong kasihani yg buat udh 1 minggu bergadang yah!!!!</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <form action="" method="post">
     <input type="hidden" name = "id" value="<?= $rv['id']; ?>">
         <table>
+        <label for="nama">Nama</label>
+            <input  type="text" name="nama" class="form-control" value="<?= $rv['nama']; ?>">
             <tr>
-                <td>
-                    <label for="nama">Nama</label>
-                </td>
-                <td>
-                    <input type="text" name="nama" value="<?= $rv['nama']; ?>">
-                </td>
+            <label for="gambar">Gambar</label>
+            <input type="text" class="form-control" name="gambar" value="<?= $rv['gambar']; ?>">
             </tr>
             <tr>
-                <td>
-                    <label for="gambar">Gambar</label>
-                </td>
-                <td>
-                    <input type="text" name="gambar" value="<?= $rv['gambar']; ?>">
-                </td>
+            <label for="pabrikan">Pabrikan</label>
+            <input type="text" class="form-control" name="pabrikan" value="<?= $rv['pabrikan']; ?>">
             </tr>
             <tr>
-                <td>
-                    <label for="pabrikan">Pabrikan</label>
-                </td>
-                <td>
-                    <input type="text" name="pabrikan" value="<?= $rv['pabrikan']; ?>">
-                </td>
+            <label for="bran">Merk</label>
+            <input type="text" class="form-control" name="merk" value="<?= $rv['bran']; ?>">
             </tr>
             <tr>
-                <td>
-                    <label for="bran">Merk</label>
-                </td>
-                <td>
-                    <input type="text" name="merk"value="<?= $rv['bran']; ?>">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="harga">Harga</label>
-                </td>
-                <td>
-                    <input type="text" name="harga"value="<?= $rv['harga']; ?>">
-                </td>
+            <label for="harga">Harga</label>
+            <input type="text" class="form-control" name="harga"value="<?= $rv['harga']; ?>">
             </tr>
         </table>
-        <button type="submit" name="ubah">Ubah Data</button>
+        <button type="submit" name="ubah"class="btn btn-outline-dark">Ubahlah</button>
     </form>
-    
+</section>
 </body>
 </html>
