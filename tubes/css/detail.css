@@ -1,0 +1,27 @@
+@import url('http://fonts.googleapis.com/css/family=Quicksand:400,500&subset=latin-ext');
+body{
+    padding: 100px;
+   background: url(../assets/img/detail.jpg);
+   background-size: cover;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+.main {
+    width: 800px;
+    height: 520px;
+    background-color: #fafafa;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 1px solid#eeeeee;
+
+}
+.gambar{
+    background-color: white;
+    box-sizing: cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid white;
+}

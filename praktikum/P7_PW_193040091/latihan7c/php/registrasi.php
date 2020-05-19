@@ -35,12 +35,9 @@ if(isset($_POST['register'])){
                         <input type="text" name="username" placeholder="Username/ID">                        
                         <input type="password" name="password" placeholder="Password">
                         <input type="submit" name="register" value="Daftar">
-            
             </div>
                 <div class="right-box">
-                
                 <span class="sigin">Selamat Datang  Di<br> Form Registrasi</span>
-                
                 </div>
 
                 
