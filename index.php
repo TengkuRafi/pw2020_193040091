@@ -71,9 +71,9 @@
   <div class="card-body">
     <h5 class="card-title text-white ">P7_PW_193040091</h5>
     <p class="card-text text-white">Menuju Tugas Praktikum 7 Silahkan klik dibawah ini!</p>
-    <a href="praktikum/P7_PW_193040091/Latihan7a" class="btn btn-primary">Latihan7a</a>
-    <a href="praktikum/P7_PW_193040091/Latihan7b" class="btn btn-primary">Latihan7b</a>
-    <a href="praktikum/P7_PW_193040091/Latihan7c" class="btn btn-primary">Latihan7c</a>
+    <a href="praktikum/P7_PW_193040091/latihan7a" class="btn btn-primary">Latihan7a</a>
+    <a href="praktikum/P7_PW_193040091/latihan7b" class="btn btn-primary">Latihan7b</a>
+    <a href="praktikum/P7_PW_193040091/latihan7c" class="btn btn-primary">Latihan7c</a>
   </div>
 </div>
 </div>
