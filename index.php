@@ -38,9 +38,9 @@
   <div class="card-body">
     <h5 class="card-title text-white">P5_PW_193040091</h5>
     <p class="card-text text-white">Menuju Tugas Praktikum 5 Silahkan klik dibawah ini!</p>
-    <a href="praktikum/P5_PW_193040091/Latihan5a/index.php" class="btn btn-primary">Latihan5a</a>
-    <a href="praktikum/P5_PW_193040091/Latihan5b/index.php" class="btn btn-primary">Latihan5b</a>
-    <a href="praktikum/P5_PW_193040091/Latihan5c/index.php" class="btn btn-primary">Latihan5c</a>
+    <a href="praktikum/P5_PW_193040091/Latihan5a" class="btn btn-primary">Latihan5a</a>
+    <a href="praktikum/P5_PW_193040091/Latihan5b" class="btn btn-primary">Latihan5b</a>
+    <a href="praktikum/P5_PW_193040091/Latihan5c" class="btn btn-primary">Latihan5c</a>
   </div>
 </div>
 </div>
@@ -53,12 +53,12 @@
 <div class="card-body">
     <h5 class="card-title text-white">P6_PW_193040091</h5>
     <p class="card-text text-white">Menuju Tugas Praktikum 6 Silahkan klik dibawah ini!</p>
-    <a href="praktikum/P6_PW_193040091/latihan6a/index.php" class="btn btn-primary">Latihan6a</a>
-    <a href="praktikum/P6_PW_193040091/latihan6b/index.php" class="btn btn-primary">Latihan6b</a>
-    <a href="praktikum/P6_PW_193040091/latihan6c/index.php" class="btn btn-primary">Latihan6c</a>
-    <a href="praktikum/P6_PW_193040091/latihan6d/index.php" class="btn btn-primary">Latihan6d</a>
-    <a href="praktikum/P6_PW_193040091/latihan6e/index.php" class="btn btn-primary">Latihan6e</a>
-    <a href="praktikum/P6_PW_193040091/tugas/index.php" class="btn btn-primary">Tugas 6</a>
+    <a href="praktikum/P6_PW_193040091/latihan6a" class="btn btn-primary">Latihan6a</a>
+    <a href="praktikum/P6_PW_193040091/latihan6b" class="btn btn-primary">Latihan6b</a>
+    <a href="praktikum/P6_PW_193040091/latihan6c/" class="btn btn-primary">Latihan6c</a>
+    <a href="praktikum/P6_PW_193040091/latihan6d" class="btn btn-primary">Latihan6d</a>
+    <a href="praktikum/P6_PW_193040091/latihan6e" class="btn btn-primary">Latihan6e</a>
+    <a href="praktikum/P6_PW_193040091/tugas" class="btn btn-primary">Tugas 6</a>
   </div>
 </div>
 </div>
@@ -71,9 +71,9 @@
   <div class="card-body">
     <h5 class="card-title text-white ">P7_PW_193040091</h5>
     <p class="card-text text-white">Menuju Tugas Praktikum 7 Silahkan klik dibawah ini!</p>
-    <a href="praktikum/P7_PW_193040091/Latihan7a/index.php" class="btn btn-primary">Latihan7a</a>
-    <a href="praktikum/P7_PW_193040091/Latihan7b/index.php" class="btn btn-primary">Latihan7b</a>
-    <a href="praktikum/P7_PW_193040091/Latihan7c/index.php" class="btn btn-primary">Latihan7c</a>
+    <a href="praktikum/P7_PW_193040091/Latihan7a" class="btn btn-primary">Latihan7a</a>
+    <a href="praktikum/P7_PW_193040091/Latihan7b" class="btn btn-primary">Latihan7b</a>
+    <a href="praktikum/P7_PW_193040091/Latihan7c" class="btn btn-primary">Latihan7c</a>
   </div>
 </div>
 </div>
